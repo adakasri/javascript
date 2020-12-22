@@ -1,11 +1,11 @@
 //functions()
 function msg() {
-    console.log('here is a msg');
+  console.log('here is a msg');
 }
 msg();
 
 function names() {
-    console.log('sriman', 'siva');
+  console.log('sriman', 'siva');
 }
 names();
 
@@ -20,13 +20,14 @@ myfunction();*/
 
 //debugging porpose ---(loggingFunction())
 let myfunction = function loggingFunction() {
-    console.log('here is a msg');
+  console.log('here is a msg');
 }
 myfunction();
 
 //passing information to functions
+// I want to pass random text as param and print it inside function/method
 function msg(message) {
-    console.log(message);
+  console.log(message);
 }
 msg('hello');
 msg('srimanm');
@@ -34,7 +35,7 @@ msg('srimanm');
 //another methed
 
 function msg1(message, anothermessage) {
-    console.log(message, anothermessage);
+  console.log(message, anothermessage);
 }
 msg1('hello', 'shiva');
 
@@ -62,21 +63,29 @@ let num=ponumber(9985565589);
 console.log(num);*/
 
 //functins scope
-let number = 9985565589
-function myBroNumber(number1) {
+let functionScopeOutsideNumber = 9985565589
+function myBroNumber(inputPhoneNumber) {
 
-    const myphonenumber = function () {
-        let number = 9182205557;
-        console.log('my number', number);
-        return number;
-    }
-    myphonenumber();
-    const numb = number;
-    console.log('my bro number', number);
-    return numb;
+  const myphonenumber = function () {
+    let number = 9182205557;
+    console.log('my number', number);
+    return number;
+  }
+  myphonenumber();
+  const inputPhoneNumberLocal = inputPhoneNumber;
+  console.log('my bro number', inputPhoneNumberLocal);
+  return numb;
 }
-console.log(myBroNumber());
+const resultPhoneNumber = myBroNumber(345)
+//console.log(resultPhoneNumber);
+// I want to print my phone number and my brother phone number
 
+//Steps
+//1. Print phone 1
+//2. Create local function
+//3. print anothor number in local scope
+// 4. Return phone number
+// 5. Catch returned phone number and print it 
 
 //
 /*function myphonenumber(number1)
