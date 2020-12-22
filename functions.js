@@ -74,7 +74,7 @@ function myBroNumber(inputPhoneNumber) {
   myphonenumber();
   const inputPhoneNumberLocal = inputPhoneNumber;
   console.log('my bro number', inputPhoneNumberLocal);
-  return numb;
+  return inputPhoneNumberLocal;
 }
 const resultPhoneNumber = myBroNumber(345)
 //console.log(resultPhoneNumber);
@@ -96,3 +96,5 @@ const resultPhoneNumber = myBroNumber(345)
     }
     console.log(myphonenumber(9182201557));
 */
+
+
