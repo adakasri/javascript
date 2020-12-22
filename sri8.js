@@ -9,3 +9,4 @@ console.log(sri1);
 
 let sri2=Number.parseInt('1234');
 console.log(typeof sri2);
+

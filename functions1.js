@@ -1,17 +1,15 @@
 //functins scope
-number=9985565589
-function mybronumber(number1)
-{
-    var myphonenumber=function()
-    {
-        let number=9182205557;
-        console.log('my number',number);
+number = 9985565589
+function mybronumber(number1) {
+    var myphonenumber = function () {
+        let number = 9182205557;
+        console.log('my number', number);
         return number;
     }
-    let numb=number;
-    console.log('my bro number',number);
+    let numb = number;
+    console.log('my bro number', number);
     return numb;
-}console.log(mybronumber());
+} console.log(mybronumber());
 
 
 //

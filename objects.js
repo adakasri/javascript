@@ -18,3 +18,5 @@ let siva={
 };
 siva.pnumber=9515567456;
 console.log(siva.pnumber);
+
+//methods
