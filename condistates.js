@@ -44,7 +44,7 @@ console.log(valu);
     console.log(i);
 }*/
 
-for(let j=3-5;j<=20-10+1;j++){
+for(let j=3;j<=20;j++){
     console.log(j);
 }
 

@@ -1,13 +1,11 @@
 //functions()
-function msg()
-{
+function msg() {
     console.log('here is a msg');
 }
 msg();
 
-function names()
-{
-    console.log('sriman','siva');
+function names() {
+    console.log('sriman', 'siva');
 }
 names();
 
@@ -21,15 +19,13 @@ names();
 myfunction();*/
 
 //debugging porpose ---(loggingFunction())
-let myfunction=function loggingFunction()
-{
+let myfunction = function loggingFunction() {
     console.log('here is a msg');
 }
 myfunction();
 
 //passing information to functions
-function msg(message)
-{
+function msg(message) {
     console.log(message);
 }
 msg('hello');
@@ -37,11 +33,10 @@ msg('srimanm');
 
 //another methed
 
-function msg1(message,anothermessage)
-{
-    console.log(message,anothermessage);
+function msg1(message, anothermessage) {
+    console.log(message, anothermessage);
 }
-msg1('hello','shiva');
+msg1('hello', 'shiva');
 
 //funtions return values
 /*function pnumber(number)
@@ -67,19 +62,20 @@ let num=ponumber(9985565589);
 console.log(num);*/
 
 //functins scope
-number=9985565589
-function mybronumber(number1)
-{
-    var myphonenumber=function()
-    {
-        let number=9182205557;
-        console.log('my number',number);
+let number = 9985565589
+function myBroNumber(number1) {
+
+    const myphonenumber = function () {
+        let number = 9182205557;
+        console.log('my number', number);
         return number;
     }
-    let numb=number;
-    console.log('my bro number',number);
+    myphonenumber();
+    const numb = number;
+    console.log('my bro number', number);
     return numb;
-}console.log(mybronumber());
+}
+console.log(myBroNumber());
 
 
 //
