@@ -2,7 +2,7 @@
 
 //steps
 //creating object
-//attaching details for the object
+//attaching properties for the object
 //getting the details and print it
 
 //implementing and also using symbol(hiding the information)
@@ -18,7 +18,7 @@ console.log(siva.fullName);
 console.log(siva.age);
 console.log(siva.college);
 
-//objet changing 
+//objet properties changing 
 
 let person = {
     age: 25,
