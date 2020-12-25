@@ -9,7 +9,7 @@ console.log(now.toDateString());
 let todayDate = new Date();
 console.log(todayDate.getDate());
 
-//math( to print directly)
+//math( no need to access prototype)
 
 //console.log(math.PI());
 
