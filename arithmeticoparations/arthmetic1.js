@@ -9,7 +9,7 @@ function arithmeticOperation(inputNumber, anothertInputNumber) {
      divOutput = inputNumber / anothertInputNumber;
      mulOutput = inputNumber * anothertInputNumber;
      modOutput = inputNumber % anothertInputNumber;
-    return inputNumber, anothertInputNumber;
+    return ;
 }
 arithmeticOperation(15, 10);
 console.log('add opertion output is:', addOutput);
