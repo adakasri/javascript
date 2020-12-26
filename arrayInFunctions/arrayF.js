@@ -20,12 +20,14 @@ function arrayInFunction(elements) {
 console.log(elements);
 
 //
+let i;
 const elements1 = ['a', 'b', 'c', 'd', 'e'];
 
 function arrayInFunction1(elements1) {
 
-for(let i=0; i<elements1.length; i++)
+for( i=0; i<elements1.length; i++)
 
-return elements1;
+return elements1[i];
 }
 console.log(elements1);
+
