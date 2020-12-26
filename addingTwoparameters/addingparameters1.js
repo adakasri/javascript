@@ -1,8 +1,10 @@
+
+'use strict'
+
 function adding(firstNumber, secondNumber) {
-    
-    result = firstNumber + secondNumber;
- 
-    return result;
+
+   
+    return firstNumber + secondNumber;
 }
-adding(5, 5);
-console.log(result);
+
+console.log(adding(5,5));
