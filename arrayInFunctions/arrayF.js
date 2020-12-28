@@ -1,5 +1,5 @@
 
-
+/*
 
 const arrayElements = ['a', 'b', 'c', 'd', 'e'];
 
@@ -13,21 +13,39 @@ const elements = ['a', 'b', 'c', 'd', 'e'];
 
 function arrayInFunction(elements) {
 
-    const results = elements.forEach(elements) 
+    const results = elements.forEach(elements);
 
     return elements;
 }
-console.log(elements);
+console.log(elements);*/
 
-//
-let i;
-const elements1 = ['a', 'b', 'c', 'd', 'e'];
 
-function arrayInFunction1(elements1) {
 
-for( i=0; i<elements1.length; i++)
 
-return elements1[i];
+
+
+
+const elements1 = [1,2,3,4,5,6];
+function arrayInFunction1(arrayValues) {
+
+    for (let i = 0; i < arrayValues.length; i++){
+
+        console.log(arrayValues[i]);
+    }
 }
-console.log(elements1);
+arrayInFunction1(elements1);
+
+
+
+
+/*function arrayInFunction1(elements1) {
+
+    const arrayResults = elements1;
+
+    console.log(arrayResults);
+
+return elements1;
+}
+arrayInFunction1(elements1 = ['a', 'b', 'c', 'd', 'e']);*/
+
 
